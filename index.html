@@ -1,57 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StillWallet — Mindful Spending</title>
-  <link rel="icon" href="favicon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="StillWallet adds a gentle pause before you buy online. Save money, reduce regret, and build mindful shopping habits." />
+  <title>StillWallet – Your money, without the rush.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+  <meta property="og:title" content="StillWallet – Mindful Spending Extension">
+  <meta property="og:description" content="Pause before you purchase. Reduce impulse buying, save money, and shop intentionally.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:type" content="website">
 </head>
-<body>
-<header>
-  <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
-    <div style="display:flex;align-items:center;gap:.5rem;">
-      <img src="img/logo.svg" alt="StillWallet logo" width="28" height="28"><strong>StillWallet</strong>
+
+<body class="bg-beige text-charcoal font-sans">
+  <!-- Header -->
+  <header class="p-6 flex justify-between items-center bg-white shadow-md">
+    <img src="images/logo.png" alt="StillWallet Logo" class="h-10" />
+    <a href="#waitlist" class="bg-sage text-white px-5 py-2 rounded hover:bg-green-600">Join the Waitlist</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 px-6">
+    <h1 class="text-4xl md:text-6xl font-serif mb-4">Your money, without the rush.</h1>
+    <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto">Add a gentle pause before you pay. Save money, reduce regret, and shop with intention — not impulse.</p>
+    <div class="flex justify-center gap-4">
+      <a href="#" class="bg-gold text-black px-6 py-3 rounded shadow hover:opacity-90">Add to Chrome</a>
+      <a href="#waitlist" class="border border-charcoal px-6 py-3 rounded hover:bg-charcoal hover:text-white">Join the Waitlist</a>
     </div>
-    <nav><a href="#how">How it works</a><a href="#features">Features</a><a href="#pricing">Pricing</a></nav>
-    <a href="#" class="btn primary">Get the App</a>
-  </div>
-</header>
+    <img src="images/hero-mockup.png" alt="StillWallet UI" class="mt-12 mx-auto max-w-md" />
+  </section>
 
-<section class="hero">
-  <div class="hero-text">
-    <span style="background:var(--sage);padding:.3rem .8rem;border-radius:1rem;font-size:.8rem;">New • Mindful Spending</span>
-    <h1>Your money, without the rush.</h1>
-    <p>StillWallet adds a gentle pause before purchases so you can reflect, resist impulse buys, and build mindful habits.</p>
-    <a href="#waitlist" class="btn primary">Join the Waitlist</a>
-    <a href="#demo" class="btn outline">Watch Demo →</a>
-  </div>
-  <div class="hero-img"><img src="img/hero.svg" alt="StillWallet app preview"></div>
-</section>
-
-<section id="how" class="section">
-  <div class="container">
-    <h2>How it works</h2>
-    <div class="grid3">
-      <div class="card"><h3>👜 Add to cart</h3><p>StillWallet detects checkout and opens a gentle pause overlay.</p></div>
-      <div class="card"><h3>⏸ Take a breath</h3><p>Choose a delay and get reminded later.</p></div>
-      <div class="card"><h3>🔔 Decide mindfully</h3><p>Buy it if it’s still worth it — or skip and save.</p></div>
+  <!-- How It Works -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-10 text-center">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">1. Shop as usual</h3>
+        <p>StillWallet detects when you're at checkout and steps in.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">2. Take a pause</h3>
+        <p>Pick a pause time — 2h, 12h, or 24h — and step back.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">3. Decide, mindfully</h3>
+        <p>Get a reminder: “Still worth it?” Choose to buy or skip.</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="features" class="section">
-  <div class="container">
-    <h2>Built for calm, designed for control</h2>
-    <div class="grid3">
-      <div class="card"><h3>🔒 Privacy-first</h3><p>Your data stays yours.</p></div>
-      <div class="card"><h3>💰 Savings tracker</h3><p>See how much you didn’t spend.</p></div>
-      <div class="card"><h3>✨ AI impulse coach</h3><p>Spot patterns and get micro-habits.</p></div>
+  <!-- Features -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-serif mb-8">Why StillWallet?</h2>
+      <ul class="space-y-4 text-left">
+        <li>✅ Avoid impulse buys with smart checkout pauses</li>
+        <li>✅ See your skipped purchases and savings</li>
+        <li>✅ Customize pause times by category</li>
+        <li>✅ No guilt or shaming — just gentle nudges</li>
+        <li>✅ Fully private and local by default</li>
+        <li>✅ Works on Amazon, Shopify, and more</li>
+      </ul>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer><div class="container">© 2025 StillWallet. All rights reserved.</div></footer>
+  <!-- Pricing -->
+  <section class="py-20 bg-beige text-center">
+    <h2 class="text-3xl font-serif mb-6">Pricing</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-10 px-6">
+      <div class="bg-white p-6 rounded shadow-md max-w-xs mx-auto">
+        <h3 class="text-xl font-semibold mb-2">Free Forever</h3>
+        <ul class="text-left mb-4">
+          <li>- Unlimited pauses</li>
+          <li>- Dashboard & savings</li>
+          <li>- Custom rules</li>
+        </ul>
+        <p class="font-bold">Free</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow-md max-w-xs mx-auto border-2 border-gold">
+        <h3 class="text-xl font-semibold mb-2">Premium – Coming Soon</h3>
+        <ul class="text-left mb-4">
+          <li>- Pause streaks</li>
+          <li>- Extra themes</li>
+          <li>- Trends & insights</li>
+        </ul>
+        <p class="font-bold">$3.99/month</p>
+        <p class="text-sm text-gray-600">3 months free for early users</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Waitlist Form -->
+  <section id="waitlist" class="py-20 px-6 text-center bg-white">
+    <h2 class="text-3xl font-serif mb-4">Join the Waitlist</h2>
+    <p class="mb-6 max-w-xl mx-auto">Be the first to get access to StillWallet. No spam, just an invite when we launch.</p>
+    <form action="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec" method="POST" class="flex flex-col md:flex-row justify-center gap-4 max-w-xl mx-auto">
+      <input type="email" name="email" required placeholder="Your email" class="px-4 py-3 border border-gray-300 rounded w-full" />
+      <button type="submit" class="bg-sage text-white px-6 py-3 rounded hover:bg-green-700">Join Now</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 bg-gray-100 text-center text-sm text-gray-600">
+    <p>© 2025 StillWallet • <a href="/privacy" class="underline">Privacy</a> • <a href="/terms" class="underline">Terms</a></p>
+  </footer>
 </body>
 </html>
