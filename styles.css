@@ -1,0 +1,38 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #2F2F2F;
+  margin: 0;
+  background: #F4EDE4;
+}
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
+  color: #2F2F2F;
+}
+a { text-decoration: none; color: inherit; }
+.container { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+.nav { background: white; position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #ddd; }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; }
+.logo { display: flex; align-items: center; gap: .4rem; font-weight: 600; color: #2F2F2F; }
+.links a { margin: 0 .8rem; color: #2F2F2F; }
+.btn { padding: .7rem 1.4rem; border-radius: .6rem; display: inline-block; text-align: center; font-weight: 600; }
+.btn.primary { background: #A7C4A0; color: #2F2F2F; }
+.btn.outline { border: 2px solid #A7C4A0; color: #2F2F2F; }
+.btn.ghost { color: #2F2F2F; }
+.btn.block { width: 100%; }
+.section { padding: 4rem 0; background: white; }
+.hero { padding: 5rem 0; background: linear-gradient(to bottom,#F4EDE4,white); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 2rem; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 1.5rem; }
+.card { background: #fff; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.card.highlight { border: 2px solid #E8D48C; }
+.card-title { font-weight: 600; margin-bottom: .5rem; }
+.badge { display: inline-block; background: #A7C4A0; padding: .3rem .8rem; border-radius: 999px; font-size: .8rem; color: #2F2F2F; }
+.lead { font-size: 1.2rem; color: #555; }
+.cta-row { margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+.trust { margin-top: 1.5rem; color: #555; display: flex; gap: 1rem; flex-wrap: wrap; font-size: .9rem; }
+.list { list-style: none; padding: 0; margin: 1rem 0; }
+.list li::before { content: '✔️ '; }
+.pill { background: #E8D48C; padding: .2rem .6rem; border-radius: .5rem; margin-left: .4rem; font-size: .9rem; }
+footer { background: white; border-top: 1px solid #ddd; padding: 2rem 0; text-align: center; color: #666; }
+@media (max-width:600px){.links{display:none;}}
