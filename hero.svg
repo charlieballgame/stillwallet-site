@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 640'>
+<rect x='16' y='16' rx='36' ry='36' width='288' height='608' fill='url(#bg)' stroke='#D7E6D5' stroke-width='2'/>
+<defs>
+  <linearGradient id='bg' x1='0' x2='0' y1='0' y2='1'>
+    <stop offset='0%' stop-color='#EDF5EE'/>
+    <stop offset='100%' stop-color='#FFFFFF'/>
+  </linearGradient>
+</defs>
+<rect x='140' y='28' width='40' height='6' rx='3' fill='#C8D8C6'/>
+<g transform='translate(36,64)'>
+  <rect x='0' y='0' width='248' height='36' rx='12' fill='#FFFFFF' stroke='#E5EDE4'/>
+  <text x='68' y='24' font-family='DM Serif Display, serif' font-size='16' fill='#2F2F2F'>StillWallet</text>
+</g>
+<g transform='translate(36,120)'>
+  <rect x='0' y='0' width='248' height='150' rx='16' fill='#FFFFFF' stroke='#E6EAE6'/>
+  <text x='16' y='28' font-family='Inter, sans-serif' font-size='14' fill='#2F2F2F'>⏱ Pause Timer</text>
+  <text x='16' y='82' font-family='DM Serif Display, serif' font-size='48' fill='#2F2F2F'>24:00:00</text>
+</g>
+</svg>
